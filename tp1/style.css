@@ -1,6 +1,8 @@
 #h1 {
   color: #a84032;
-  text-align: center;
+  text-align: left;
+  font-family: sans-serif;
+  font-size: 250%;
 }
 
 #h2 {
@@ -15,17 +17,21 @@
 
 #paragraph {
   text-align: center;
-  color: #404040
+  color: #404040;
+  font-family: sans-serif;
 }
 
 #nav {
   text-align: left;
 }
 
-#img {
-
-}
-
 #footer {
   text-align: center;
+  font-family: sans-serif;
+  font-size: 75%;
+}
+
+.empattement {
+  font-family: serif;
+  font-size: 200%;
 }
