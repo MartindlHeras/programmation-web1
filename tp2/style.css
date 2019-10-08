@@ -1,0 +1,58 @@
+#h1 {
+  color: #a84032;
+  text-align: center;
+  font-size: 150%;
+}
+
+#h2 {
+  color: #a84032;
+  text-align: center;
+}
+
+#h3 {
+  color: #a84032;
+  text-align: center;
+}
+
+#clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#paragraph {
+  display: inline-block;
+  float: left;
+  text-align: center;
+  color: #404040;
+  width: 70%;
+  padding: 0;
+  margin: 0;
+}
+
+#img {
+  display: inline-block;
+  float: left;
+  text-align: center;
+  width: 15%;
+  padding: 0;
+  margin: 0;
+}
+
+#nav {
+  display: inline-block;
+  text-align: left;
+  float: left;
+  width: 15%;
+  padding: 0;
+  margin: 0;
+}
+
+#footer {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 75%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}

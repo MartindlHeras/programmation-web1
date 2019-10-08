@@ -12,7 +12,7 @@ Travaux pratiques de Programmation Web dans UNISTRA (Salle T21 - Mardi 10-12h)
 | --------------------------
 |martin.de-las-heras-moreno@etu.unistra.fr
 
- - [ ] TP1
+ - [x] TP1
  - [ ] TP2
 
 ##### Links utiles
