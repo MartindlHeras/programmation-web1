@@ -1,6 +1,6 @@
 # Programmation Web 1
 
-Travaux pratiques de Programmation Web dans UNISTRA (Salle T21 - Mardi 10-12h)
+Travaux pratiques de Programmation Web dans UNISTRA (Salle T01 - Mardi 10-12h)
 
 ##### Profeseur
 | Anne Jeannin-Girardon
@@ -13,7 +13,9 @@ Travaux pratiques de Programmation Web dans UNISTRA (Salle T21 - Mardi 10-12h)
 |martin.de-las-heras-moreno@etu.unistra.fr
 
  - [x] TP1
- - [ ] TP2
+ - [x] TP2
+ - [x] TP3
+ - [ ] TP4
 
 ##### Links utiles
  - [w3schools](w3schools.com)
