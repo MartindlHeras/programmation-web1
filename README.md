@@ -2,7 +2,7 @@
 
 Travaux pratiques de Programmation Web dans UNISTRA (Salle T01 - Mardi 10-12h)
 
-##### Profeseur
+##### Professeur
 | Anne Jeannin-Girardon
 | --------------------------
 | jeanningirardon@unistra.fr
@@ -15,7 +15,7 @@ Travaux pratiques de Programmation Web dans UNISTRA (Salle T01 - Mardi 10-12h)
  - [x] TP1
  - [x] TP2
  - [x] TP3
- - [ ] TP4
+ - [x] TP4
 
 ##### Links utiles
  - [w3schools](w3schools.com)
