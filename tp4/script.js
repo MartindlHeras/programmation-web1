@@ -1,12 +1,12 @@
 var images = document.getElementsByClassName("image");
 var descriptions = document.getElementsByClassName("description");
 
-function afficherTexte(j){
-  descriptions[j].style.display = "block";
+function afficherTexte(i){
+  descriptions[i].style.display = "block";
 }
 
-function occulterTexte(k){
-  descriptions[k].style.display = "none";
+function occulterTexte(i){
+  descriptions[i].style.display = "none";
 }
 
 for (let i = 0; i < images.length; i++) {
