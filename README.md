@@ -17,6 +17,8 @@ Travaux pratiques de Programmation Web dans UNISTRA (Salle T01 - Mardi 10-12h)
  - [x] TP3
  - [x] TP4
  - [x] TP5
+ - [x] TP6
+ - [ ] TP7
 
 ##### Links utiles
  - [w3schools](w3schools.com)

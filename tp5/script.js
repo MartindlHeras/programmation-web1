@@ -15,14 +15,15 @@ $(document).ready(function (){
   });
 
   // $(".callback").click(function(){
-  //   $(".disparaitre").hide();
+  //   $(".disparaitre").hide(500);
   //   $(".disparaitre").text("Prevue");
-  //   $(".disparaitre").show();
+  //   $(".disparaitre").show(500);
   // });
 
   $(".callback").click(function(){
     $(".disparaitre").hide(500, function(){
-      $(".disparaitre").text("Preuve").show(500);
+      $(".disparaitre").text("Preuve");
+      $(".disparaitre").show(500);
     });
   });
 

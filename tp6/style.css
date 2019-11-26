@@ -1,0 +1,40 @@
+ul {
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  display: inline-block;
+  max-width: 250px;
+  line-height: 40px;
+}
+
+li:hover {
+  background-color: #ff3333;
+}
+
+.done {
+  background-color: grey;
+  text-decoration: line-through;
+}
+
+.undone {
+  background-color: silver;
+}
+
+#textField {
+  line-height: 40px;
+  border: 2px solid;
+  font-size: 1.2em;
+}
+
+#ajouter {
+  background-color: #ff3333;
+  line-height: 40px;
+  border: 0px;
+  width: 100px;
+}
+
+#ajouter:hover {
+  background-color: #cc0000;
+}
