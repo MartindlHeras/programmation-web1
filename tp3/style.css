@@ -9,19 +9,28 @@ h2 {
   text-align: center;
 }
 
-nav ul {
+ul {
   display: flex;
-  text-align: left;
   flex-direction: column;
-  width: auto;
-  margin-left: 0px;
 }
 
-nav li {
+li {
   display: inline-block;
   min-width: 100px;
-  height: 40px;
+  max-width: 250px;
   line-height: 40px;
+  text-align: center;
+  background-color: #a84032;
+  margin-left: 2px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: green;
 }
 
 .flex_container {
@@ -33,27 +42,43 @@ nav li {
 
 .wrapper {
   display: flex;
-
   flex-direction: column;
-
   justify-content: center;
   align-items: center;
-  align-content: center;
 }
 
 p {
   display: inline-block;
-  text-align: center;
-  color: #404040;
-  padding: 0;
   margin: 0;
+  max-width: 800px;
 }
 
-img {
-  display: inline-block;
-  text-align: center;
-  padding: 0;
-  margin: 0;
+select {
+  background-color: #a84032;
+  color: white;
+  height: 40px;
+  border: 0px;
+  margin-top: 5px;
+  width: 100px;
+}
+
+#convertir {
+  background-color: #a84032;
+  color: white;
+  line-height: 40px;
+  border: 0px;
+  margin-top: 5px;
+  width: 100px;
+}
+
+#convertir:hover {
+  background-color: #cc0000;
+}
+
+#textField {
+  line-height: 40px;
+  border: 2px solid;
+  font-size: 1.2em;
 }
 
 #output {
@@ -61,10 +86,8 @@ img {
   border: 1px solid gray;
   border-left: 5px solid gray;
   padding-left: 5px;
-}
-
-form{
-  max-width: 100%
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 footer {
@@ -76,7 +99,8 @@ footer {
 
 
 /* Desktop layout */
-@media screen and (min-width: 769px) { /* from 600px on */
+@media screen and (min-width: 769px) {
+
   nav ul {
     display: flex;
     justify-content: left;

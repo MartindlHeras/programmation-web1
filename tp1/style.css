@@ -1,31 +1,46 @@
-#h1 {
+h1 {
   color: #a84032;
   text-align: left;
   font-family: sans-serif;
   font-size: 250%;
 }
 
-#h2 {
+h2, h3 {
   color: #a84032;
   text-align: center;
 }
 
-#h3 {
-  color: #a84032;
-  text-align: center;
-}
-
-#paragraph {
-  text-align: center;
-  color: #404040;
-  font-family: sans-serif;
-}
-
-#nav {
+nav {
   text-align: left;
 }
 
-#footer {
+li {
+  display: inline-block;
+  min-width: 100px;
+  max-width: 250px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #a84032;
+  margin-left: 2px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: green;
+}
+
+p {
+  text-align: center;
+  color: #404040;
+  font-family: sans-serif;
+  max-width: 800px;
+}
+
+footer {
   text-align: center;
   font-family: sans-serif;
   font-size: 75%;
