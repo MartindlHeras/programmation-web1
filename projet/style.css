@@ -1,0 +1,109 @@
+* {
+  font-family: sans-serif;
+}
+
+h1 {
+  display: flex;
+  background-color: #eeeeee;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #eeeeee;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  font-size: 1.2em;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+}
+
+input {
+  border: 2px solid;
+  font-size: 0.8em;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+#debug {
+    width: 25px;
+    height: 25px;
+}
+
+#newgame {
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    border: 0px;
+    background-color: #228b22;
+    padding: 5px 10px 5px 10px;
+    font-size: 1.2em;
+    color: #ffffff;
+}
+
+#newgame:hover {
+  background-color: green;
+}
+
+#partie {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-size: 2em;
+  background-color: #000099;
+  color: #ffffff;
+  width: 50%;
+  margin-top: 15px;
+}
+
+#grille{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.ligne{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.cellule{
+  display: flex;
+  background-color: #666;
+  width: 50px;
+  height: 50px;
+  border: 1px grey solid;
+
+  color: #eeeeee;
+  font-size: 2em;
+  justify-content: center;
+  align-items: center;
+}
+
+.cellule:hover{
+  background-color: #888;
+}
+
+.revele{
+  background-color: #888;
+}
+
+@media screen and (max-width: 769px) {
+
+  #partie{
+    width: 100%;
+  }
+}

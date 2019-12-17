@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Démineur</title>
+    <meta name="description" content="Jeux de Démineur">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="author" content="Bouha et Martin">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+
+  <body>
+    <h1>Démineur</h1>
+
+    <div class="container">
+      Taille de la grille:
+      <div class="inputs">
+        Lignes:
+        <input type="number" name="lignes" id="nblignes" max="20" min="2">
+        Colonnes:
+        <input type="number" name="colonnes"  id="nbcolonnes" min="2" max="20">
+      </div>
+    </div>
+
+    <div class="container inputs">
+      Mines:
+      <input type="number" name="mines" id="mines" min="1">
+    </div>
+
+    <div class="container inputs">
+      <input type="checkbox" name="debug" id="debug">
+      Activer mode Debug
+    </div>
+
+    <button id="newgame">Nouveau jeu</button>
+
+    <div class="partie">
+      <p id="partie">Partie en cours</p>
+    </div>
+
+    <div id="grille"></div>
+  </body>
+</html>
