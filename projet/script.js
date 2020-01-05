@@ -1,3 +1,5 @@
+/* Auteurs: Bouha Maaye et Martin de las Heras */
+
 var grille = [];
 var jeu_fini = false;
 var debug_actif = false;
@@ -159,7 +161,7 @@ $(document).ready(function (){
         jeu_fini = true;
         $("#partie").text("Vous avez perdu :(");
       }
-      if (celules_pour_reveler == nb_mines) {
+      else if (celules_pour_reveler == nb_mines) {
         jeu_fini = true;
         $("#partie").text("Vous avez gagné :)");
       }
